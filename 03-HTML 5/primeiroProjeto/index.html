@@ -133,11 +133,36 @@
 		<h3>Cadastre-se</h3>
 
 		<form>
-			Login:<br>
+			Login:<br><br>
 			<input type="text" name="name"><br>
-			Sexo: <br>
-			<input type="radio" name="sexo">Masculino<br>
-			<input type="radio" name="sexo">Feminino<br>
+			Sexo: <br><br>
+			<input type="radio" name="sexo" value="M">Masculino<br>
+			<input type="radio" name="sexo" value="F">Feminino<br><br>
+
+			Interesses: <br><br>
+
+			<input type="checkbox" name="interesses">Futebol<br>
+			<input type="checkbox" name="interesses">Cursos<br>
+			<input type="checkbox" name="interesses">Moda<br><br>
+
+			Estado:<br>
+
+			<select  name="estado">
+				<option value="SP">SP</option>
+				<option value="rj">RJ</option>
+				<option value="MG">MG</option>
+				<option value="rs">RS</option>
+			</select>
+
+			<br><br>
+
+			Observações: <br>
+
+			<textarea></textarea>
+
+			<br><br>
+
+			<input type="submit" value="cadastrar">
 
 		</form>
 	</body>
