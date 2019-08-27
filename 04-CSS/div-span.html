@@ -3,21 +3,81 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Classes e IDs</title>
+	<title>Div-Span</title>
 
 	<style type="text/css">
 
 		
-
+	#topo {
+		background: blue;
+	}
 	   
+	#conteudo{
+		background: red;
+	}
+    
+    #rodape {background: green;
+    }
+
+
+    #assinatura {background:  pink;}
+
+	.produto {
+		background: gray;
+		margin:  10px
+	}
+
+
 
 	</style>
+
+	
 
 </head>
 
 <body>
 
-	
+	<div id="topo">
+		
+		<img src="https://abrilveja.files.wordpress.com/2017/06/amazon.png" width="160">
+
+		<ul>
+			<li>Home</li>
+			<li>Produtos</li>
+			<li>Contato</li>
+		</ul>
+
+	</div>
+
+
+	<dir id="conteudo">
+		<div class="produto">
+			Produto 1
+		</div>
+
+		<div class="produto">
+			Produto 2
+		</div>
+
+	    <div class="produto">
+			Produto 3
+		</div>
+
+	</dir>
+
+	<div id="rodape">
+		Todos os direitos reservados
+	</div>
+
+	<span id="assinatura">
+		Vinicius
+	</span>
+
+	<span>
+		Jokubauskas
+	</span>
+
+
 </body>
 
 </html>
