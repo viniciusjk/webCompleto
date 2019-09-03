@@ -35,6 +35,11 @@ a{
 }
 
 
+a:hover{
+
+	font-size: 1.04em;
+}
+
 #rodape{
 	text-align: center;
 
