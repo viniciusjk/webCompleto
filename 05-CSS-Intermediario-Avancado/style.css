@@ -1,0 +1,70 @@
+/* ******************************** */
+/* SELETOR UNIVERSAL */
+
+/* *{
+     border: 1px solid red;
+} */
+
+/* ******************************** */
+/* SELETOR DE TEXTO  */
+
+/* h1{
+    color: green;
+} */
+
+
+/* ******************************** */
+
+/* SELETOR DE CLASSE */
+
+/* .verde{
+    color: green;
+} */
+
+p.verde{
+
+    color: green;
+}
+
+
+/* ******************************** */
+
+/* SELETOR ID */
+/* 
+#cabecalho{
+
+    border: 1px solid blue;
+} */
+
+
+/* ******************************** */
+
+/* SELETOR DE FILHO */
+
+li>a{
+    color: red;
+    text-decoration: none;
+    background: blue;
+}
+
+/* ******************************** */
+
+/* SELETOR DESCENDENTE  */
+
+
+div a{
+    color: green;
+    text-decoration: none;
+    font-size: 1.014em;
+    
+}
+
+
+/* ******************************** */
+
+/* SELETOR IRMAO ADJACENTE */
+
+h1+p{
+
+    color: blue;
+}
