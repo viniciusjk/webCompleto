@@ -1,0 +1,42 @@
+/* Barra navegação vertical */
+/* 
+ul{
+    border: 1px solid red;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+    padding: 5px 20px;
+    border: 1px solid red;
+    background: url(barra-navegacao-vertical/seta.png) no-repeat left center;
+} */
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    /* border: 1px solid red; */
+    display: block;
+    background: url(menu.png) no-repeat left bottom;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+
+}
+
+ul a:hover {
+
+    background-position: right bottom;
+    color: white;
+}
