@@ -27,7 +27,7 @@ ul a{
     height: 40px;
     /* border: 1px solid red; */
     display: block;
-    background: url(menu.png) no-repeat left bottom;
+    background: #f7b600 url(menu.png) no-repeat left bottom;
     color: #000;
     text-decoration: none;
     text-indent: 40px;
@@ -35,8 +35,23 @@ ul a{
 
 }
 
-ul a:hover {
-
+ul a:hover{
+    background-color: #f99200;
     background-position: right bottom;
     color: white;
 }
+
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a
+ 
+ {
+    background-color: #f99200;
+    background-position: right bottom;
+    color: white;
+}
+
+
