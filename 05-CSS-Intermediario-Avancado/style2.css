@@ -1,0 +1,30 @@
+/* Herança e especifidade */
+
+/* #pagina p{
+    color: green !important;
+}
+
+
+#pagina p{
+    color: red;
+} */
+
+/* Especificade, um seleto mais especifico sempre ganha */
+
+*{
+    color: red;
+}
+
+
+h2{
+    color: blue;
+}
+
+h2.verde{
+
+    color: green
+}
+
+/* h2#amarelo{
+    color: yellow;
+} */
