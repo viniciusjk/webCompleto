@@ -1,0 +1,107 @@
+
+body{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+
+
+#container{ 
+
+    /* border: 1px solid red; */
+    width: 720px;
+    margin: 0 auto;
+    background: white;
+    
+
+}
+
+#marca{
+
+    height: 100px;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+    /* border: 1px solid red; */
+
+}
+
+#conteudo{
+
+    /* border: 1px solid red; */
+    width: 520px;
+    float: right;
+
+}
+
+#navegacao{
+
+
+    /* border: 1px solid red; */
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 180px;
+    background: #d1d1d1;
+
+}
+
+#navegacao ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+#navegacao ul li a{
+    line-height: 2.65em;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-indent: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    background: url(./barra-navegacao-vertical/menu.png) no-repeat left bottom;
+
+}
+
+#navegacao ul a:hover{
+    
+    background-position: right bottom;
+    color: white;
+    
+}
+#rodape{
+
+    border: 1px solid red;
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+
+}
+
+#conteudo-esquerda{
+
+    float:left;
+    width: 320px;
+    /* border: 1px solid red; */
+}
+
+#conteudo-direita{
+
+    float:right;
+    width: 180px;
+    background: #c4c4c4;
+    /* border: 1px solid red; */
+   
+}
+
+#conteudo-direita p{
+    padding: 0 20px;
+}
+
+#conteudo-direita h2{
+    padding: 0 20px;
+}
+ 
