@@ -12,6 +12,8 @@ body{
 
     border: 1px solid red;
     width: 85%;
+    min-width: 820px;
+    max-width: 1280px;
     margin: 0 auto;
     background: white;
     
@@ -20,11 +22,12 @@ body{
 
 #marca{
 
-    height: 100px;
+    height: 300px;
     
     background: #9e9e9e;
     text-align: center;
-    line-height: 100px;
+    line-height: 300px;
+    background: #255992 url(./images/cabecalho2.jpg) no-repeat center;
     /* border: 1px solid red; */
 
 }
@@ -93,7 +96,18 @@ body{
     width: 61.5%;
     border: 1px solid red;
 }
+/* 
+#imagem{
+    width: 90%;
+    overflow: hidden;
+} */
 
+img.img-noticia{
+     
+    width: 94%;
+    padding: 2%;
+    max-width: 600px;
+}
 #conteudo-direita{
 
     float:right;
@@ -111,3 +125,4 @@ body{
     padding: 0 20px;
 }
  
+
