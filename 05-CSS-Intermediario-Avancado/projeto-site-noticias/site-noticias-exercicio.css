@@ -97,6 +97,16 @@ body.fotos #navegacao a#fotos
     margin-top: 60px;
 }
 
+#lateral{
+
+    width: 180px;
+    /* background: yellow; */
+    float: left;
+    margin: 0 0 20px -750px;
+
+
+}
+
 #primario{
 
     width: 270px;
@@ -104,6 +114,17 @@ body.fotos #navegacao a#fotos
     background: blue;
     margin-left: 195px;
     margin-bottom: 20px;
+    
+}
+
+#duas-colunas #primario{
+
+    width: 555px;
+    
+}
+#uma-colunas #primario{
+    width: 750px;
+    margin-left: 0 0 20px 0;
     
 }
 
@@ -115,15 +136,72 @@ body.fotos #navegacao a#fotos
     margin: 0 0 20px 15px;
 
 }
-#lateral{
 
-    width: 180px;
-    background: yellow;
-    float: left;
-    margin: 0 0 20px -750px;
 
+.caixa{
+    margin: 10px 0px;
+    padding: 5px 0px;
+    background: #f3f3f3 url(./images/fundo-caixa.png);
+}
+
+
+.caixa h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #FFF;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 
 }
+
+#lateral  ul a{
+    text-decoration: none;
+    padding: 3px 0;
+    line-height: 30px;
+    color: black;
+    display: block;
+    border-bottom: 1px solid #f3f3f3;
+    
+}
+
+#lateral ul a:hover{
+
+    color:#a1a1a1;
+    background: url(./images/marcador.png) no-repeat left center;
+    text-indent: 20px;
+}
+
+#email label{
+    
+    font-weight: bold;
+    font-size: 1.1em;
+    display: block;
+    cursor: pointer;
+}
+
+#email input {
+    padding: 5px;
+  
+    font-size: 0.9em;
+    background: #fff;
+    width: 125px;
+    /* border: lightgray; */
+}
+
+#email input.submit{
+
+    width: 80px;
+    color: #fff;
+    background: #b10333;
+    
+    padding: 5px;
+}
+
 
 #container-rodape{
     clear: both;
