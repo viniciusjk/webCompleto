@@ -111,7 +111,7 @@ body.fotos #navegacao a#fotos
 
     width: 270px;
     float: left;
-    background: blue;
+    /* background: blue; */
     margin-left: 195px;
     margin-bottom: 20px;
     
@@ -128,10 +128,76 @@ body.fotos #navegacao a#fotos
     
 }
 
+/* Formatando Imagens */
+
+img.imagem-principal{
+     width: 98%;
+     border: 3px solid #dfdfdf;
+
+}
+
+/* Formatando Cabeçalhos */
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size:0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+
+    background: #de003e;
+    color: #fff;
+}
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px #ccc solid;
+    height: 62px;
+}
+
+#lista-noticias li a img{
+
+    float: left;
+    margin: 5px;
+
+}
+#lista-noticias li a{
+
+    text-decoration: none;
+    font-size: 0.8em;
+
+}
+#lista-noticias li:hover{
+
+    background: #eee;
+    cursor: pointer;
+
+}
+
+#lista-noticias li h3{
+
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 0px;
+    color: blue;
+    background: none;
+    
+
+}
+
+
 #secundario{
 
     width: 270px;
-    background: green;
+    /* background: green; */
     float: left;
     margin: 0 0 20px 15px;
 
@@ -213,4 +279,5 @@ body.fotos #navegacao a#fotos
     width: 750px;
     margin:0 auto;
     color: #fff;
+    clear:both;
 }
