@@ -21,6 +21,11 @@ body{
     /* border: 1px solid red; */
 }
 
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+    
+}
 #topo{
  
     height: 150px;
@@ -65,9 +70,13 @@ ul{
      padding: 0.5em 1.5em;
      line-height: 2.1em;
      background: url(./images/divisor.png) repeat-y;
+     text-transform: uppercase;
   
      
 }
+
+
+
 #topo li a:hover{
     color:#69001d;
 }
@@ -97,6 +106,28 @@ body.fotos #navegacao a#fotos
     margin-top: 60px;
 }
 
+#primario{
+    
+    width: 270px;
+    float: left;
+    /* background: blue; */
+    /* margin: 0 -305px 20px 0px; */
+    margin-left: 195px;
+
+    
+}
+#duas-colunas #primario{
+
+    width: 555px;
+    /* background: red; */
+    
+}
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+    
+}
+
 #lateral{
 
     width: 180px;
@@ -107,26 +138,6 @@ body.fotos #navegacao a#fotos
 
 }
 
-#primario{
-
-    width: 270px;
-    float: left;
-    /* background: blue; */
-    margin-left: 195px;
-    margin-bottom: 20px;
-    
-}
-
-#duas-colunas #primario{
-
-    width: 555px;
-    
-}
-#uma-colunas #primario{
-    width: 750px;
-    margin-left: 0 0 20px 0;
-    
-}
 
 /* Formatando Imagens */
 
@@ -173,6 +184,7 @@ h3{
 
     text-decoration: none;
     font-size: 0.8em;
+    color: black
 
 }
 #lista-noticias li:hover{
